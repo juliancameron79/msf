@@ -1,0 +1,709 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster:400|Oswald:100,200,300,400,500,600,700");
+
+body {
+	font-family: "Oswald", sans-serif;
+	line-height: 1.5;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-color: #fff;
+	color: #696868;
+	font-size: 1.25rem;
+	padding-bottom: 0;
+	min-height: 100vh;
+}
+
+.scrollspy-example {
+	position: relative;
+	height: 200px;
+	margin-top: .5rem;
+	overflow-y: auto;
+}
+
+h1.title {
+	font-family: "Bodoni mt", italic;
+}
+/* Site wide Banner */
+
+a.news-links {
+	text-decoration: none;
+	color: #86434d;
+}
+
+a.login-signup-links {
+	text-decoration: none;
+	color: #86434d;
+}
+
+.special-offers-text {
+	text-decoration: none;
+}
+
+.site-wide-banner {
+	background-color: #f1f1f1;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	justify-content: space-around;
+	margin-right: 0;
+	margin-left: 0;
+	font-size: 1rem;
+}
+
+.site-wide-banner-container {
+	padding-right: 0;
+	padding-left: 0;
+	max-height: 40px;
+	background-color: #f1f1f1;
+}
+
+.special-offers {
+	padding: 0.5rem 1rem;
+	text-align: left;
+}
+
+.subscribe {
+	padding: 0.5rem 1rem;
+	text-align: right;
+}
+
+/* Nav Bar */
+
+.img-responsive-brand {
+	mix-blend-mode: multiply;
+	width: 8vh;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+.col-brand-size {
+}
+
+.navbar-bg {
+	background-color: #f8cae1;
+}
+
+a.nav-link {
+	font-size: 1.3rem;
+	font-weight: 300;
+	color: #86434d;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #86434d;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+	color: #fff;
+}
+.navbar-dark {
+	color: #86434d;
+}
+
+button.navbar-toggler {
+	border: 0;
+}
+
+.navbar-fluid {
+	background-color: #f8cae1;
+	border-top-color: #86434d;
+	border-width: 15px;
+}
+
+a.navbar-brand-text {
+	font-family: "Bodoni mt", italic;
+	font-size: 1.7rem;
+}
+
+a.navbar-brand.navbar-brand-text {
+	color: #b76e79;
+}
+
+.navbar {
+	display: flex;
+	z-index: 1;
+}
+
+.dropdown-menu {
+	font-family: "Oswald", sans-serif;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 10rem;
+	padding: 0.5rem 0;
+	margin: 0.125rem 0 0;
+	font-size: 1rem;
+	color: #fff;
+	text-align: left;
+	list-style: none;
+	background-color: rgb(228, 185, 207);
+	background-clip: padding-box;
+	border: 1px solid rgba(73, 55, 153, 0.15);
+	border-radius: 0.25rem;
+}
+
+a.dropdown-item.active {
+	background-color: #b76e79;
+}
+
+a.dropdown-item.active:hover {
+	color: #fff;
+}
+
+a.dropdown-item:hover {
+	color: #b76e79;
+}
+
+a.dropdown-item {
+	color: #86434d;
+}
+/* hero */
+
+.hero {
+	background: url("../images/assorted-color-of-rose-flowers-714918.jpg");
+	background-position: cover;
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;*/
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	z-index: -3;
+	right: 0;
+	border-radius: 0 0 85% 85% / 8%;
+	overflow: hidden;
+}
+
+.opaque-overlay {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: -1;
+	right: 0;
+	border-radius: 0 0 85% 85% / 8%;
+}
+
+/* Jumbotron */
+
+h1.global-page-titles {
+	text-transform: capitalize;
+	color: #86434d;
+}
+
+.jumbotron {
+	padding: 2rem 1rem;
+	margin-bottom: 1.25rem;
+	background-color: #e9ecef00;
+	border-radius: 0.3rem;
+	height: 86vh;
+	margin-top: 115px;
+}
+
+h1.jumbotron-header {
+	font-family: "Bodoni mt", italic;
+	font-size: 10vh;
+	font-weight: 300;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	margin-bottom: 15%;
+}
+
+.brand-text {
+	font-family: "Bodoni mt", italic;
+}
+
+h2.jumbotron-strap-line {
+	color: white;
+	font-weight: 200;
+	text-align: center;
+	margin-bottom: 15%;
+}
+
+p.jumbotron-text {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+h2.ranges-title {
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	color: #86434d;
+}
+
+.hr {
+	border-color: linear-gradient (white, #0ca02a);
+}
+
+span.brand--text {
+	font-weight: 300;
+	color: #86434d;
+}
+.more-info-container {
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin-top: 2rem;
+}
+
+.section {
+	padding: 5rem 0;
+}
+
+/* image Gallery */
+h3.section-title {
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: #86434d;
+}
+a.section-title {
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: #86434d;
+}
+
+a.section-title:hover {
+	text-decoration: none;
+}
+
+.img-thumbnail {
+	height: 100%;
+	width: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	-o-object-position: center center;
+	   object-position: center center;
+}
+
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	margin-top: 1.2rem;
+	width: 200px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+	height: 20%;
+	padding: 2px 16px;
+}
+
+.image-container {
+	position: relative;
+	width: 100%;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: 80%;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #e2ecf0be;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: 0.5s ease;
+}
+
+.image-container:hover .overlay {
+	height: 30%;
+}
+
+.overlay-more-info {
+	position: absolute;
+	top: 0;
+	left: 80%;
+	right: 0;
+	background-color: transparent;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: 0.8s ease-in-out;
+}
+
+.image-container:hover .overlay-more-info {
+	height: 30%;
+}
+
+.price {
+	color: white;
+	font-size: 1rem;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text {
+	color: white;
+	font-size: 1rem;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/* footer */
+
+.follow-us-title .footer-fluid {
+	position: absolute;
+	bottom: 0;
+}
+
+.footer-brand-text {
+	font-family: "Bodoni mt", italic;
+	font-size: 1.3em;
+}
+
+.copy-rights-text {
+	text-align: center;
+	font-size: 0.7rem;
+	margin: 0;
+}
+
+.social-icons-list-items {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-icons {
+	padding: 0;
+}
+
+.social-icons li a i {
+	margin-bottom: 0;
+	width: 32px;
+	height: 32px;
+	padding: 12px 0;
+	border-radius: 25%;
+	font-size: 13px;
+	line-height: 7px;
+	text-align: center;
+	color: #fafafa;
+	background: #696868;
+	-moz-transition: all 0.35s ease-in-out;
+	-wbekit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+}
+
+.social-icons li a i:hover {
+	color: #f1f1f1;
+	background-color: #00861a82;
+}
+
+.social-icons {
+	align-items: flex-start;
+}
+
+.footer-fluid {
+	padding-top: 20px;
+	background-image: linear-gradient(#ffffff, #dae3e5, #dae3e5);
+	margin-top: 20px;
+}
+
+a.email-link {
+	text-decoration: none;
+	color: #696868;
+}
+
+h5.footer-contact-title,
+h5.follow-us-title {
+	color: #00861a82;
+	font-weight: 300;
+}
+
+.contact-text {
+	color: #696868;
+	font-size: 0.8rem;
+}
+
+.follow-us-container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+@media screen and (min-width: 480px) {
+	.follow-us-container {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+/* contact HTML */
+
+.email-container {
+	height: 100%;
+}
+
+.btn-contact-submit {
+	background-color: #86434d;
+	border-color: #86434d;
+}
+
+.btn-contact-submit:hover {
+	background-color: #86434d93;
+	border-color: #86434d93;
+}
+
+/* jumbotron */
+
+.email-jumbotron {
+	height: 30vh;
+	background-image: url(../images/sunflowers-712098.jpg);
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color-burn;
+	background-size: cover;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.contact-title {
+	color: white;
+}
+
+.jumbotron-contact-text {
+	color: white;
+}
+
+/* Funeral HTML */
+
+.funerals-title {
+	color: white;
+}
+
+.jumbotron-funerals-text {
+	color: white;
+}
+
+.funeral-images {
+	width: 100%;
+	padding: 5px 0;
+}
+
+/* About HTML */
+
+.about-row {
+	display: flex;
+	align-items: center;
+}
+
+.container-fluid i {
+	color: red;
+	margin-bottom: 20px;
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.about-jumbotron {
+	height: 30vh;
+	background-image: url(../images/sunflowers-712098.jpg);
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color-burn;
+	background-size: cover;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.about-title {
+	color: white;
+}
+
+.about-container {
+	width: 80%;
+}
+.jumbotron-about-text {
+	color: white;
+}
+
+.about-img {
+	
+	width: 80%;
+}
+
+.about-image-container {
+	display: flex;
+	justify-content: space-around;
+}
+/* News & Tips HTML */
+
+.news-tips-jumbotron {
+	height: 30vh;
+	background-image: url(../images/sunflowers-712098.jpg);
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color-burn;
+	background-size: cover;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+h3.news,
+.tips {
+	color: #86434d;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+.tips-title,
+.news-title {
+	color: #86434d;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+.jumbotron-news-tips-text {
+}
+
+a.btn .btn-outline-success .buy-button {
+	width: 80.98px;
+}
+
+/* Login HTML */
+
+.btn-sign-in {
+	background-color: #86434d;
+	border-color: #86434d;
+}
+
+.btn-sign-in:hover {
+	background-color: white;
+	border-color: #86434d;
+	color: #86434d;
+}
+
+.btn-create-an-account {
+	background-color: #86434d93;
+	border-color: #86434d93;
+}
+
+.btn-create-an-account:hover {
+	background-color: #86434d;
+	border-color: #86434d;
+}
+
+.btn-forgotten-password {
+	background-color: #86434d93;
+	border-color: #86434d93;
+}
+
+.btn-forgotten-password:hover {
+	background-color: #86434d;
+	border-color: #86434d;
+}
+
+/* Products HTML */
+
+.product-container {
+	margin-top: 150px;
+}
+
+.product-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.similar-products {
+	overflow: auto;
+}
+
+.scrollmenu {
+	background-color: #fff;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.scrollmenu img {
+	display: inline-block;
+	padding: 14px;
+}
+
+/*@media (min-width: 768px) {
+	.col-jv {
+		-ms-flex: 0 0 100%%;
+		flex: 0 0 25%;
+		max-width: 100%;
+	}
+}*/
+
+.test1 {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+}
+
+.col-jv {
+	height: 20%;
+}
+
+.global-title {
+	color: #86434d;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+.product-title {
+	color: #86434d;
+	font-weight: 300;
+	text-transform: capitalize;
+	font-size: 2.5rem;
+}
+
+span.product-price {
+	color: #86434d;
+	font-weight: 300;
+	text-transform: capitalize;
+	font-size: 1.5rem;
+}
+
+.product-description-title {
+	color: #86434d;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+.carousel{
+	pause
+	intervals
+}
+
+.over-text {
+	padding: 12px;
+	color: #86434d;
+}
+.over-price {
+	padding: 12px;
+	color: #86434d;
+}
+
