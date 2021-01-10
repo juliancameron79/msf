@@ -202,6 +202,7 @@ a.dropdown-item {
 h1.global-page-titles {
 	text-transform: capitalize;
 	color: #86434d;
+	letter-spacing: 1.1vw;
 }
 
 .jumbotron {
